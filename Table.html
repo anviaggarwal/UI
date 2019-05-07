@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <title>Table</title>
+	    <style>
+	    div {
+	    	border:2px solid black;
+	    	text-align: center;
+	    	max-width: 535px;
+            margin:0 auto;
+	    	background: #dae6f7;
+	    }
+	     table{
+	     	border:1px solid black;
+	     	border-collapse: collapse;
+	     	margin: 10px;
+	     }
+	     td,th{
+	     	border:1px solid grey;
+	     }
+	     th{
+	     	color: blue;   
+	     	background: powderblue;
+	     	vertical-align: top;
+            text-align:left;
+	     	padding: 5px;
+         }
+         td{
+         	text-align:right;
+         	padding: 5px;
+         	vertical-align: bottom;
+         }
+         .c{
+         	text-align:center;
+         }
+	    </style>
+    </head>
+    <body>
+    	<div>
+    		<h3>Energy Expenditures for Each Region</h3>
+    		<h3>(million of dollars)</h3>
+    	<table>
+    		<tr>
+    			<th class="c" rowspan="4" colspan="2"></th>
+    			<th class="c" colspan="2">Type</th>
+    		</tr>
+    		<tr>
+    			<th class="c">Residential Customers</th>
+                <th class="c">Business Customers</th>
+    		</tr>
+    		<tr>
+    			<th class="c">Expenditures</th>
+    			<th class="c">Expenditures</th>
+    		</tr>
+    		<tr>
+    			<th class="c">Sum</th>
+    			<th class="c">Sum</th>
+    		</tr>
+            <tr>
+            	<th>Region</th>
+            	<th>Division</th>
+            	<td rowspan="2">$7,477</td>
+            	<td rowspan="2">$5,129</td>
+            </tr>
+            <tr>
+            	<th rowspan="2">Northeast</th>
+            	<th>New England</th> 
+            </tr>
+            <tr>
+                <th>Middle Atlantic</th>
+                <td>$19,379</td>
+                <td>$15,078</td>
+            </tr>
+            <tr>
+            	<th rowspan="2">West</th>
+            	<th>Mountain</th>
+            	<td>$5,476</td>
+            	<td>$4,729</td>
+            </tr>
+            <tr>
+            	<th>Pacific</th>
+            	<td>$13,959</td>
+            	<td>$12,619</td>
+            </tr>
+    	</table>
+    	</div>
+	</body>
+</html>
